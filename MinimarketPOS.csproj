@@ -6,15 +6,19 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>assets\Minimarket.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Utils\" />
+    <Content Include="assets\Minimarket.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
     <PackageReference Include="ESCPOS_NET" Version="3.0.0" />
+    <PackageReference Include="QuestPDF" Version="2025.12.1" />
+    <PackageReference Include="ScottPlot.WinForms" Version="5.1.57" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
   </ItemGroup>
 
